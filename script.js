@@ -52,3 +52,14 @@ function equalSign(){
     document.getElementById('screen').value = result
     expression = result
 }
+
+function toggleMode() {
+  document.body.classList.toggle("light-mode");
+  const btn = document.getElementById("modeToggle");
+
+  if (document.body.classList.contains("light-mode")) {
+    btn.innerText = "🌙 Mode";
+  } else {
+    btn.innerText = "☀️ Mode";
+  }
+}

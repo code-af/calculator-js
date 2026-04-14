@@ -1,9 +1,20 @@
+body.light-mode{
+  background-color: gainsboro;
+}
+body.light-mode .mode-btn{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
 body {
   min-height: 100vh;
   background-color: black;
 }
-.main-body{
-    
+.mode-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: all 0.3s ease;
 }
 .calc-body {
     max-width: 400px;   /* limit size on desktop */
